@@ -1,0 +1,2579 @@
+
+->Time: 1
+( Queue1 ) 
+( Queue2 ) 
+( Queue3 ) 
+( Queue4 ) 
+( Queue5 ) 
+
+->Time: 2
+Clientul 34 a juns la ora 2 in coada  1 si are service time 2 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+( Queue2 ) 
+( Queue3 ) 
+( Queue4 ) 
+( Queue5 ) 
+
+->Time: 3
+Clientul 16 a juns la ora 3 in coada  2 si are service time 5 secunde
+
+
+Clientul 35 a juns la ora 3 in coada  3 si are service time 2 secunde
+
+
+Clientul 38 a juns la ora 3 in coada  4 si are service time 2 secunde
+
+
+Clientul 41 a juns la ora 3 in coada  5 si are service time 1 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+
+->Time: 4
+Clientul 13 a juns la ora 4 in coada  1 si are service time 6 secunde
+
+
+Clientul 25 a juns la ora 4 in coada  5 si are service time 3 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+
+->Time: 5
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+
+->Time: 6
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+
+->Time: 7
+Clientul 2 a juns la ora 7 in coada  4 si are service time 6 secunde
+
+
+Clientul 5 a juns la ora 7 in coada  3 si are service time 2 secunde
+
+
+Clientul 8 a juns la ora 7 in coada  2 si are service time 2 secunde
+
+
+Clientul 26 a juns la ora 7 in coada  5 si are service time 4 secunde
+
+
+Clientul 48 a juns la ora 7 in coada  4 si are service time 2 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+
+->Time: 8
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+
+->Time: 9
+Clientul 11 a juns la ora 9 in coada  3 si are service time 2 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+
+->Time: 10
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+
+->Time: 11
+Clientul 0 a juns la ora 11 in coada  2 si are service time 5 secunde
+
+
+Clientul 36 a juns la ora 11 in coada  1 si are service time 1 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+
+->Time: 12
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+
+->Time: 13
+Clientul 9 a juns la ora 13 in coada  1 si are service time 2 secunde
+
+
+Clientul 20 a juns la ora 13 in coada  5 si are service time 5 secunde
+
+
+Clientul 45 a juns la ora 13 in coada  4 si are service time 1 secunde
+
+
+Clientul 46 a juns la ora 13 in coada  3 si are service time 4 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+
+->Time: 14
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+
+->Time: 15
+Clientul 28 a juns la ora 15 in coada  2 si are service time 6 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+
+->Time: 16
+Clientul 30 a juns la ora 16 in coada  1 si are service time 4 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+
+->Time: 17
+Clientul 21 a juns la ora 17 in coada  5 si are service time 4 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+
+->Time: 18
+Clientul 6 a juns la ora 18 in coada  4 si are service time 2 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+
+->Time: 19
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+
+->Time: 20
+Clientul 42 a juns la ora 20 in coada  3 si are service time 2 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+
+->Time: 21
+Clientul 4 a juns la ora 21 in coada  2 si are service time 5 secunde
+
+
+Clientul 24 a juns la ora 21 in coada  1 si are service time 6 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+
+->Time: 22
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+
+->Time: 23
+Clientul 10 a juns la ora 23 in coada  5 si are service time 3 secunde
+
+
+Clientul 40 a juns la ora 23 in coada  4 si are service time 2 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+
+->Time: 24
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+
+->Time: 25
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+
+->Time: 26
+Clientul 33 a juns la ora 26 in coada  3 si are service time 5 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+
+->Time: 27
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+
+->Time: 28
+Clientul 29 a juns la ora 28 in coada  2 si are service time 3 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+
+->Time: 29
+Clientul 17 a juns la ora 29 in coada  5 si are service time 2 secunde
+
+
+Clientul 44 a juns la ora 29 in coada  4 si are service time 4 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+
+->Time: 30
+Clientul 1 a juns la ora 30 in coada  1 si are service time 4 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+
+->Time: 31
+Clientul 15 a juns la ora 31 in coada  3 si are service time 5 secunde
+
+
+Clientul 27 a juns la ora 31 in coada  2 si are service time 3 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+
+->Time: 32
+Clientul 43 a juns la ora 32 in coada  5 si are service time 3 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+
+->Time: 33
+Clientul 7 a juns la ora 33 in coada  4 si are service time 5 secunde
+
+
+Clientul 12 a juns la ora 33 in coada  1 si are service time 1 secunde
+
+
+Clientul 14 a juns la ora 33 in coada  3 si are service time 4 secunde
+
+
+Clientul 31 a juns la ora 33 in coada  2 si are service time 3 secunde
+
+
+Clientul 49 a juns la ora 33 in coada  1 si are service time 2 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+
+->Time: 34
+Clientul 22 a juns la ora 34 in coada  5 si are service time 3 secunde
+
+
+Clientul 32 a juns la ora 34 in coada  4 si are service time 1 secunde
+
+
+Clientul 39 a juns la ora 34 in coada  3 si are service time 1 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+
+->Time: 35
+Clientul 3 a juns la ora 35 in coada  2 si are service time 2 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+
+->Time: 36
+Clientul 18 a juns la ora 36 in coada  1 si are service time 5 secunde
+
+
+Clientul 19 a juns la ora 36 in coada  5 si are service time 3 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 37
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 38
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 39
+Clientul 23 a juns la ora 39 in coada  4 si are service time 3 secunde
+
+
+Clientul 37 a juns la ora 39 in coada  3 si are service time 2 secunde
+
+
+Clientul 47 a juns la ora 39 in coada  2 si are service time 3 secunde
+
+
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 40
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 41
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 42
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 43
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 44
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 45
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 46
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 47
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 48
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 49
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 50
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 51
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 52
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 53
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 54
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 55
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 56
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 57
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 58
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 59
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
+
+->Time: 60
+( Queue1 ) 
+34[ Sos:2 Serv:2 ]
+13[ Sos:4 Serv:6 ]
+36[ Sos:11 Serv:1 ]
+9[ Sos:13 Serv:2 ]
+30[ Sos:16 Serv:4 ]
+24[ Sos:21 Serv:6 ]
+1[ Sos:30 Serv:4 ]
+12[ Sos:33 Serv:1 ]
+49[ Sos:33 Serv:2 ]
+18[ Sos:36 Serv:5 ]
+( Queue2 ) 
+16[ Sos:3 Serv:5 ]
+8[ Sos:7 Serv:2 ]
+0[ Sos:11 Serv:5 ]
+28[ Sos:15 Serv:6 ]
+4[ Sos:21 Serv:5 ]
+29[ Sos:28 Serv:3 ]
+27[ Sos:31 Serv:3 ]
+31[ Sos:33 Serv:3 ]
+3[ Sos:35 Serv:2 ]
+47[ Sos:39 Serv:3 ]
+( Queue3 ) 
+35[ Sos:3 Serv:2 ]
+5[ Sos:7 Serv:2 ]
+11[ Sos:9 Serv:2 ]
+46[ Sos:13 Serv:4 ]
+42[ Sos:20 Serv:2 ]
+33[ Sos:26 Serv:5 ]
+15[ Sos:31 Serv:5 ]
+14[ Sos:33 Serv:4 ]
+39[ Sos:34 Serv:1 ]
+37[ Sos:39 Serv:2 ]
+( Queue4 ) 
+38[ Sos:3 Serv:2 ]
+2[ Sos:7 Serv:6 ]
+48[ Sos:7 Serv:2 ]
+45[ Sos:13 Serv:1 ]
+6[ Sos:18 Serv:2 ]
+40[ Sos:23 Serv:2 ]
+44[ Sos:29 Serv:4 ]
+7[ Sos:33 Serv:5 ]
+32[ Sos:34 Serv:1 ]
+23[ Sos:39 Serv:3 ]
+( Queue5 ) 
+41[ Sos:3 Serv:1 ]
+25[ Sos:4 Serv:3 ]
+26[ Sos:7 Serv:4 ]
+20[ Sos:13 Serv:5 ]
+21[ Sos:17 Serv:4 ]
+10[ Sos:23 Serv:3 ]
+17[ Sos:29 Serv:2 ]
+43[ Sos:32 Serv:3 ]
+22[ Sos:34 Serv:3 ]
+19[ Sos:36 Serv:3 ]
